@@ -15,7 +15,7 @@ body {
 
 /* main content section */
 .main-content {
-	padding: 100px 90px 90px 100px;
+	padding: 60px 30px 60px 40px;
 }
 
 /* about me section */
@@ -34,7 +34,7 @@ body {
 .about-me-profession {
 	font-style: normal;
 	font-weight: bold;
-	font-size: 14px;
+	font-size: 25px;
 	line-height: 17px;
 	color: #000;
 	margin: 0 0 20px 0;
@@ -50,10 +50,10 @@ body {
 }
 
 .about-me-description {
-	width: 400px;
+	width: 650px;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 24px;
 	color: #595959;
 }
@@ -61,7 +61,7 @@ body {
 .main-content-title {
 	font-style: normal;
 	font-weight: bold;
-	font-size: 22px;
+	font-size: 25px;
 	line-height: 27px;
 	color: #000;
 	margin: 0 0 10px 0;
@@ -75,7 +75,7 @@ body {
 .my-work-experience-position {
 	font-style: normal;
 	font-weight: bold;
-	font-size: 16px;
+	font-size: 18px;
 	line-height: 20px;
 	color: #000000;
 	margin: 0 0 10px 0;
@@ -85,13 +85,21 @@ body {
 	color: #fb6d3a;
 }
 
+a {
+	text-decoration: none;
+}
+
 .time-periods {
 	font-style: normal;
 	font-weight: normal;
-	font-size: 12px;
+	font-size: 14px;
 	line-height: 15px;
 	color: #a8a8a8;
 	margin: 0 0 10px 0;
+}
+
+h5 {
+	font-size: 16px;
 }
 
 .divider {
@@ -102,7 +110,7 @@ body {
 	padding: 0 0 0 19px;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 24px;
 	color: #595959;
 }
@@ -122,11 +130,15 @@ body {
 }
 
 .my-projects-link {
-	color: #595959;
+	color: #72a9fb;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 14px;
+	font-size: 18px;
 	line-height: 24px;
+}
+
+a:hover {
+	text-decoration: underline;
 }
 
 .my-projects-bracket {
@@ -141,7 +153,7 @@ body {
 	color: #595959;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 24px;
 	margin-left: 5px;
 }
@@ -149,9 +161,9 @@ body {
 /* sidebar section */
 .sidebar-section {
 	border-radius: 10px;
-	width: 370px;
+	width: 300px;
 	background-color: #0b4972;
-	margin: 0px 20px 0px 0px;
+	margin: 0px 50px 0px 0px;
 	padding: 40px 0px 0px 0px;
 }
 .contacts-section {
