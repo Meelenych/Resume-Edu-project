@@ -1,5 +1,5 @@
 body {
-	font-family: "Montserrat", sans-serif;
+	font-family: "Rajdhani", sans-serif;
 	background-color: #f5f7fa;
 }
 
@@ -9,6 +9,7 @@ body {
 	width: 1200px;
 	background-color: #fff;
 	margin: 40px auto;
+	border-radius: 10px;
 	box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
 
@@ -20,6 +21,14 @@ body {
 /* about me section */
 .about-me {
 	margin-bottom: 40px;
+}
+
+.photo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 2%;
+	box-shadow: 3px 3px 15px 5px rgba(0, 0, 0, 0.267);
 }
 
 .about-me-profession {
@@ -139,8 +148,9 @@ body {
 
 /* sidebar section */
 .sidebar-section {
+	border-radius: 10px;
 	width: 370px;
-	background-color: #1e2939;
+	background-color: #0b4972;
 	margin: 0px 20px 0px 0px;
 	padding: 40px 0px 0px 0px;
 }
@@ -180,7 +190,7 @@ body {
 	fill: #fff;
 }
 .contacts-section-link {
-	color: #55647a;
+	color: #72a9fb;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 14px;
